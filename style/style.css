@@ -379,3 +379,24 @@ footer p {
     margin-top: 0.5rem;
   }
 }
+
+@media screen and (max-width: 460px) {
+  .container {
+    gap: 50px;
+  }
+
+  textarea {
+    height: 10rem;
+    width: 20rem;
+  }
+
+  .saida-texto {
+    height: 14rem;
+    width: 20rem;
+  }
+
+  footer {
+    width: 100%;
+    margin-top: 15%;
+  }
+}
