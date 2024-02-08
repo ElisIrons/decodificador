@@ -1,4 +1,4 @@
-## 🌜 Desafio de Lógica do programa ONE (Oracle Next Education) 🌛
+## 🌜 Desafio Iniciante em Programação do programa ONE (Oracle Next Education) 🌛
 ### 🚀 Oracle + Alura - Turma 06 
 
 O desafio proposto foi criar uma aplicação que criptografa textos, assim você poderá trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.
