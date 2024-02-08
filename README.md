@@ -17,3 +17,4 @@ As "chaves" de criptografia que utilizaremos são: <br/>
 ✅ Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.<br/>
 ✅ A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções.<br/>
 ✅Um botão que copie o texto criptografado/descriptografado para a área de transferência - ou seja, que tenha a mesma funcionalidade do ctrl+C ou da opção "copiar" do menu dos aplicativos.
+![Design sem nome](https://github.com/ElisIrons/decodificador/assets/86434261/392bb0f4-acb2-4ffe-99e1-22de0f4348eb)
