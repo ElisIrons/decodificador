@@ -3,7 +3,7 @@
 
 O desafio proposto foi criar uma aplicação que criptografa textos, assim você poderá trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.
 
-Requisistos: <br/>
+Requisitos: <br/>
 As "chaves" de criptografia que utilizaremos são: <br/>
 
 ✅ A letra "e" é convertida para "enter" <br/>
