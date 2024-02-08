@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- código das estrelas de Keith Clark: https://codepen.io/keithclark/pen/DQdKbg  -->
+    <div id="space">
+      <div class="stars"></div>
+      <div class="stars"></div>
+      <div class="stars"></div>
+      <div class="stars"></div>
+      <div class="stars"></div>
+    </div>
+
+    <header>
+      <nav class="container-topo">
+        <img
+          class="imagem-topo"
+          src="./assets/astronauta.jpg"
+          alt="astronauta de cabelo cor de rosa"
+        />
+        <h1>Bem-vindo(a), terráqueo(a), ao Decodificador de Texto</h1>
+      </nav>
+    </header>
+
+    <main>
+      <section class="container">
+        <section class="insercao-texto">
+          <textarea
+            class="insercao-mensagem"
+            placeholder="digite sua mensagem..."
+          ></textarea>
+          <div class="info">
+            <img src="./assets/exclamation.png" alt="Atenção" />
+            <p>Apenas letras minúsculas e sem acento</p>
+          </div>
+          <div class="botoes">
+            <button
+              class="btn btn-criptografar"
+              onclick="criptografarMensagem(event)"
+            >
+              Criptografar
+            </button>
+            <button
+              class="btn btn-descriptografar"
+              onclick="descriptografarMensagem(event)"
+            >
+              Descriptografar
+            </button>
+          </div>
+        </section>
+        <section class="saida">
+          <div class="saida-texto">
+            <img id="saida-imagem" src="./assets/not-found-astronauta.png" />
+            <h1 class="s1-campo-vazio">Nenhuma mensagem encontrada 🔎</h1>
+            <p class="s2-campo-vazio">
+              Digite uma mensagem que você deseja <br />
+              criptografar ou descriptografar.
+            </p>
+            <div class="saida-resposta">
+              <p class="saida-resposta-paragrafo"></p>
+            </div>
+          </div>
+          <div class="botoes">
+            <button class="btn btn-copiar" onclick="copiarMensagem()">
+              Copiar
+            </button>
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <p>Desenvolvido por Elis Rodrigues</p>
+      <div class="footer-icons">
+        <a
+          href="https://www.linkedin.com/in/elis-rodrigues-cardoso/"
+          target="_blank"
+          class="icon"
+        >
+          <img src="./assets/linkedin.png" class="imagem-icon" />
+        </a>
+
+        <a href="https://github.com/ElisIrons" target="_blank" class="icon">
+          <img src="./assets/github.png" class="imagem-icon" />
+        </a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
