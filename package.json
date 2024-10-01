@@ -1,0 +1,15 @@
+{
+  "name": "decodificador",
+  "version": "1.0.0",
+  "description": "O desafio proposto foi criar uma aplicação que criptografa textos, assim você poderá trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.",
+  "main": "script.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.47.2"
+  }
+}
